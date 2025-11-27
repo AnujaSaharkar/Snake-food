@@ -48,8 +48,18 @@ main{
 
 }
 
+#time,#highscore,#score{
+    color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+   font-weight: 900;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
 .board{
-    background-color:rgb(33, 30, 30);
+    background-color:rgb(23, 21, 21);
     width: 100%;
     height: 88%;
     border-radius: 10px;
@@ -64,6 +74,7 @@ main{
     width: 30px;
     height: 30px;
     box-shadow: 0 0 0 1px rgb(51, 50, 50);
+    border-radius: 50%;
 }
 
 .fill{
@@ -119,5 +130,23 @@ main{
 
 .restartgame{
     display: none;
+}
+
+.btn-diff.active {
+    background-color: #4caf50;
+    color: white;
+    border: 2px solid #388e3c;
+}
+
+.btn-diff{
+    background-color: crimson;
+    padding: 10px 20px;
+    font-weight: 600;
+    color: white;
+}
+
+#level{
+    font-size: 25px;
+    color: rgb(228, 228, 109);
 }
 
