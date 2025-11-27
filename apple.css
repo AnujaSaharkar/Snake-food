@@ -1,0 +1,447 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+#nav{
+    width: 100%;
+    height: 7%;
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    position:fixed;
+}
+
+#nav a{
+    color: white;
+    text-decoration: none;
+}
+
+#nav i{
+    color: white;
+   
+}
+
+#center{
+    width:100%;
+    height: 80%;
+    background-image: url(https://www.apple.com/v/home/ch/images/heroes/iphone-17-pro/hero_iphone_17_pro__bknyzxfk2agi_mediumtall.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding:6%;
+    
+}
+
+#center h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+
+}
+
+#center h5{
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    padding: 0.8%;
+}
+
+#btns{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 0.5%;
+}
+
+#btns button{
+    background-color: royalblue;
+    padding: 1% 1.7%;
+    border-radius: 30px;
+    border: none;
+    font-weight: 500;
+    color: white;
+    font-size: 16px;
+   
+}
+
+#slide2{
+    width:100%;
+    height:75%;
+    background-image: url(https://www.apple.com/v/home/ch/images/heroes/iphone-air/hero_iphone_air__0gxyavihpiqu_mediumtall.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 12px;
+    text-align: center;
+    padding: 6%;
+
+}
+
+#slide2 h1{
+    color: black;
+    font-size: 50px;
+    font-weight: 600;
+    
+}
+
+#slide2 h5{
+    color: black;
+    font-size: 30px;
+    font-weight: 400;
+    padding: 0.8%;
+}
+
+#btns1{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 0.5%;
+}
+
+#btns1 button{
+    background-color: royalblue;
+    padding: 1% 1.7%;
+    border-radius: 30px;
+    border: none;
+    font-weight: 500;
+    color: white;
+    font-size: 16px;
+   
+}
+
+#slide3{
+    width:100%;
+    height:80%;
+    background-image: url(https://www.apple.com/v/home/ch/images/heroes/iphone-17/hero_iphone_17__c5vvimu9a20y_mediumtall.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 12px;
+    text-align: center;
+    padding: 4%;
+}
+
+#slide3 h1{
+    color: black;
+    font-size: 50px;
+    font-weight: 600;
+    
+}
+
+#slide3 h5{
+    color: black;
+    font-size: 30px;
+    font-weight: 400;
+    padding: 0.8%;
+}
+
+#btns2{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 0.5%;
+}
+
+#btns2 button{
+    background-color: royalblue;
+    padding: 1% 1.7%;
+    border-radius: 30px;
+    border: none;
+    font-weight: 500;
+    color: white;
+    font-size: 16px;
+}
+
+#slide4{
+    width:100%;
+    height:70%;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1% 0%;
+}
+
+#slide4 #one{
+    width: 47%;
+    height: 100%;
+    background-image: url(https://www.apple.com/v/home/ch/images/promos/icloud-plus/promo_icloud_plus__d4639vh3tz2a_medium.jpg);
+    background-position: bottom;
+    background-size: cover;
+    text-align: center;
+    padding: 3%;
+}
+
+#slide4 #two{
+    width: 47%;
+    height: 100%;
+   background-image: url(https://www.apple.com/v/home/ch/images/promos/apple-games/promo_apple_games__bfy0db0xi602_medium.jpg);
+    background-position: center;
+    background-size: cover; 
+   text-align: center;
+   padding: 2%;
+}
+
+#slide4 #one h1{
+    color: black;
+    font-size: 35px;
+    font-weight: 600;
+    
+}
+
+#slide4 #one h5{
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0.8%;
+}
+
+#btns3{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 0.8%;
+}
+
+#btns3 button{
+    background-color: royalblue;
+    padding: 1% 1.7%;
+    border-radius: 30px;
+    border: none;
+    font-weight: 500;
+    color: white;
+    font-size: 16px;
+}
+
+#slide4 #two h1{
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+    
+}
+
+#slide4 #two h5{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0.8%;
+}
+
+#slide4 #two button{
+     background-color: royalblue;
+    padding: 1% 1.7%;
+    border-radius: 30px;
+    border: none;
+    font-weight: 500;
+    color: white;
+    font-size: 16px;
+
+}
+
+#slide5{
+    width:100%;
+    height:70%;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1% 0%;
+}
+
+#slide5 #three{
+    width: 47%;
+    height: 100%;
+    background-image: url(https://www.apple.com/v/home/ch/images/promos/airpods-pro-3/promo_airpodspro_3__f6xmza7bglei_medium.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 3%;
+}
+
+#slide5 #four{
+    width: 47%;
+    height: 100%;
+   background-image: url(https://www.apple.com/v/home/ch/images/promos/ipad-air/promo_ipad_air_avail__6i02t7nujr62_medium.jpg);
+   background-position: center;
+   background-size: cover;
+   text-align: center;
+   padding: 2% 0%;
+}
+
+#slide5 #three h1{
+    color: black;
+    font-size: 35px;
+    font-weight: 600;
+    
+}
+
+#slide5 #three h5{
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0.8%;
+}
+
+#btns4{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 0.8%;
+}
+
+#btns4 button{
+    background-color: royalblue;
+    padding: 1% 1.7%;
+    border-radius: 30px;
+    border: none;
+    font-weight: 500;
+    color: white;
+    font-size: 14px;
+}
+
+#slide5 #four h1{
+    color: black;
+    font-size: 35px;
+    font-weight: 600;
+    
+}
+
+#slide5 #four h5{
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0.8%;
+}
+
+#btns5{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 1.5%;
+}
+
+#btns5 button{
+    background-color: royalblue;
+    padding: 1% 1.7%;
+    border-radius: 30px;
+    border: none;
+    font-weight: 500;
+    color: white;
+    font-size: 16px;
+}
+
+#slide6{
+    width:100%;
+    height:70%;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1% 0%;
+}
+
+#slide6 #five{
+    width: 47%;
+    height: 100%;
+   background-image: url(https://www.apple.com/v/home/ch/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_medium.jpg);
+   background-position: center;
+   background-size: cover; 
+   text-align: center;
+    padding: 3%;
+}
+
+#slide6 #five h1{
+    color: black;
+    font-size: 35px;
+    font-weight: 600;
+    
+}
+
+#slide6 #five h5{
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0.8%;
+}
+#slide6 #five button{
+     background-color: royalblue;
+    padding: 1% 1.7%;
+    border-radius: 30px;
+    border: none;
+    font-weight: 500;
+    color: white;
+    font-size: 16px;
+    margin-top: 18px;
+
+}
+
+
+#slide6 #six{
+    width: 47%;
+    height: 100%;
+   background-image: url(https://www.apple.com/v/home/ch/images/promos/apple-card/promo_apple_card__5cm7draujpey_medium.jpg);
+   background-position: center;
+   background-size: cover;
+   text-align: center;
+   padding: 2% 0%;
+}
+
+#slide6 #six img{
+    width:30%;
+    height: 20%;
+    position: relative;
+}
+
+#btns6{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 1.5%;
+    padding-bottom: 3%;
+}
+
+#btns6 button{
+    background-color: royalblue;
+    padding: 1% 1.7%;
+    border-radius: 30px;
+    border: none;
+    font-weight: 500;
+    color: white;
+    font-size: 16px;
+}
+
+#slide6 #six h5{
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0%;
+}
+
+
+
+
+
+
+
+

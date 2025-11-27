@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+@mixin formatting(){
+    flex-grow: 1;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+   
+    text-shadow: 4px 4px 6px rgb(77, 75, 75);
+    
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: white;
+    padding:10px;
+    gap: 12px;
+
+    section{
+        @include formatting();
+    }
+
+    section:nth-child(1){
+        background-image: url(https://imgs.search.brave.com/415PnOW8qhk7v1ahNl8ZTLpuaYe6jTaE2HKb9CaD31o/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzdmL2Y3/LzE1LzdmZjcxNTRl/NTIwZDI3YTZlMDJl/MzI1MTY0YzExNjBh/LmpwZw);
+    }
+    
+    section:nth-child(2){
+        background-image: url(https://imgs.search.brave.com/pyAxw6Nk61MDSA7S7AUUzjd3x1Y75wIabuXtfA43Hc4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jb250/ZW50LnBleGVscy5j/b20vaW1hZ2VzL2Nh/bnZhL2FpLWdlbmVy/YXRlZC1hZC9vZmYt/dGhlbWUvcmFpbmtp/c3NlZF9mb3Jlc3Qt/ZnVsbC5qcGc);
+    }
+
+    section:nth-child(3){   
+        background-image: url(https://imgs.search.brave.com/JPCsmZ9zKVaKM6puNMt4yvD5jjmkmFO1RQOfuiFOEj4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTMz/NDIzOTIwMy9waG90/by9wZXJzb24td2Fs/a2luZy1vbi10aGUt/YmFlY2gtYXQtc3Vu/c2V0LXNlbmphLW5v/cndheS5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9eUZycTha/LWdYRWh6NnpQaVot/YmpYQjdMMWxyZE1l/bXR6bzIzeXV0b3NS/ND0);
+    }
+
+    section:nth-child(4){
+        background-image: url(https://imgs.search.brave.com/1d2AY1Io4nnKg7hZFQfW5K_7eq1IaOaWZvwel_dQIlw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTQ2/MTU1NjM5Ny9waG90/by9jb2xvcmZ1bC1y/b2FkLWJ5LXRoZS1z/ZWEuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPXozaGJ1WDF1/anE2NGFxR3RLVTI4/Uk5EQjhVZGNVR3NP/d3lrWHJoUEdfNTg9);
+    }
+
+     section:nth-child(5){
+        background-image: url(https://imgs.search.brave.com/YFlFklwZfqWYXtoLObyBst272Ibk_i7Y-pl8ihukMyw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTA5/MTE2NTk5OC9waG90/by9jaXR5LXNreWxp/bmUtYW5kLWJ1aWxk/aW5ncy13aXRoLWVt/cHR5LWFzcGhhbHQt/cm9hZC1hdC1zdW5y/aXNlLmpwZz9iPTEm/cz0xNzB4MTcwJms9/MjAmYz0yenlCZmpX/M1NVcG9nUHZodTNx/VFhGcUNCUEJCamFX/MzhSTFZ4aUJrYmNn/PQ);
+    }
+}
+
+
+section:hover{
+    flex-grow: 3;
+    transition: all 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+
